@@ -1,0 +1,73 @@
+.header-main {
+	margin-top: 130px;
+	transition: all 2s;
+}
+.item-slide > .card > img {
+		width:100%;
+		height: 100%;
+	}
+@media only screen and (min-width: 700px) {
+	.header-main {
+		margin-top: 100px;
+		transition: all 2s;
+}
+}
+.item-slide > .card > img {
+		width:100%;
+		height: 100%;
+	}
+/*stiluri pentru clasa intro */
+.intro {
+	background-image: url("../images/imgfont6.jpg");
+	background-size:cover;
+}
+.price {
+	text-align: center;
+}
+
+/* stiluri pentru pagina Contacte */
+/* proprietati pentru pagina contacte */
+/* copiate */
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/* adaugate */
+.md-form i {
+	background: Lightgrey;
+	padding: 10px;
+	border-radius: 4px;
+}
+.ic i {
+	background: Lightgrey;
+	padding: 15px;
+	border-radius: 100%;
+}
+
+.fad{
+	padding:7px 10px;
+	background: transparent;
+	border-radius: 5px;
+	transition: background 0.7s;
+	text-align: center;
+	margin-left: 9%;
+}
+.fad:hover {
+	padding:7px 10px;
+	background: MistyRose;
+	border-radius: 5px;
+	transition: background 0.7s;
+}
+.btn {
+    font-size: 1.3rem;
+}
